@@ -1,0 +1,119 @@
+<!doctype html>
+<html>
+    <head>
+        <title>MUSIC SITE COMPANY</title>
+        <link rel="stylesheet" href="style.css">
+        
+    
+    
+    
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="images/logo%201.jpg" class="logo">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">CONNECT</a></li>
+
+
+
+                    
+                
+                
+                
+                </ul>
+            
+            
+            
+            
+            </div>
+            <div class="content">
+                <div class="left-col">
+                    <h1>THE<br> REAL<br> SOUND</h1>
+                
+                </div>
+                <div class="right-col">
+                    <p>Click Here To Listen</p>
+                    <img src="images/play%20butt.jpg" id="icon">
+                
+                
+                
+                
+                </div>
+                
+            
+            
+            
+            
+            
+            
+            </div>
+            
+        
+        
+        
+        </div>
+        <audio id="mysong">
+        
+        <source src="images/Justin%20Bieber%20-%20Company.mp3" type="audio/mp3">
+        
+        
+        </audio>
+        <script>
+        var mysong=document.getElementById("mysong");
+        var icon=document.getElementById("icon");
+        icon.onclick=function(){
+            if(mysong.paused){
+                mysong.play();
+                icon.src="images/pause-button.jpg";
+            }else{
+                 mysong.pause();
+                icon.src="images/play%20butt.jpg";
+                
+                
+            }
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        </script>
+        
+        
+        
+    
+    
+    
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
